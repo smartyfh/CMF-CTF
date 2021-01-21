@@ -46,8 +46,7 @@ def get_outlier_mat(R,outliers_fraction):
     np.save(filename, I_outlier)
     print ("============outliers_fraction %s DONE ==============" % outliers_fraction)
 
-
-    
+  
 def load_data(filedir):
     R = []
     with open(filedir)as fin:
@@ -57,13 +56,17 @@ def load_data(filedir):
     return R 
 
 
-def main(outlier_fra):
-    filedir = "dataset1/rtMatrix.txt"
+def main(outlier_fra, dataset):
+    if dataser == "rt":
+        filedir = "dataset1/rtMatrix.txt"
+    elif dataset == "tp":
+        filedir = "dataset1/tpMatrix.txt"
     R = load_data(filedir)
     get_outlier_mat(R, outlier_fra)
 
     
 if __name__ == '__main__':
     outlier_fra = float(sys.argv[1])
-    main(outlier_fra)    
+    dataset = sys.argv[2]
+    main(outlier_fra, dataset)    
     
