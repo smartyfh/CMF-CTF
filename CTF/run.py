@@ -21,15 +21,15 @@ import dataloader
 para = {'dataType': 'rt', # set the dataType as 'rt' or 'tp'
 	'dataPath': '',
 	'outPath': 'res35/',
-	'metrics': ['MAE', 'RMSE'], # delete where appropriate
+	'metrics': ['MAE', 'RMSE'], 
 	'density': [0.5], # matrix density
-	'rounds': 5, # how many runs are performed at each matrix density
+	'rounds': 10, # how many runs are performed at each matrix density
 	'dimension': 15, # dimenisionality of the latent factors
-	'gamma': 35, # maybe 10 for tp
-	'lambdau': 0.1, # regularization parameter have tried 0.1
+	'gamma': 35, # 
+	'lambdau': 0.1, # regularization parameter
 	'lambdas': 0.1,
 	'lambdat': 0.1,
-	'maxIter': 350, # the max iterations
+	'maxIter': 500, # the max iterations
 	'saveTimeInfo': False, # whether to keep track of the running time
 	'saveLog': False, # whether to save log into file
 	'debugMode': False, # whether to record the debug info
