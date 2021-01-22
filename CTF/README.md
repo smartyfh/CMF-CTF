@@ -11,7 +11,7 @@ This repo maintains the implementation of the Cauchy tensor factorization method
 2. Remove outliers from the dataset, e.g.,
 
    ```
-     $ python3 Full_time_outlier.py 0.1 "rt"
+   python3 Full_time_outlier.py 0.1 "rt"
    ```
    
 3. Train the model
@@ -22,7 +22,7 @@ This repo maintains the implementation of the Cauchy tensor factorization method
       python setup.py build_ext --inplace
       ```
       
-      Line 25 in setup.py need to be modified in accordance to the running experiment.
+      Line 25 in setup.py need to be modified in accordance with the running experiment.
       
    * Then, train the model
    
