@@ -22,7 +22,7 @@ This repo maintains the implementation of the Cauchy tensor factorization method
       python setup.py build_ext --inplace
       ```
       
-      Line 25 in setup.py need to be modified in accordance with the running experiment.
+      Line 25 in setup.py need to be modified in accordance with the running environment.
       
    * Then, train the model
    
