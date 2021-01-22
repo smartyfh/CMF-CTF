@@ -1,4 +1,4 @@
-# CMF-CTF: Outlier-Resilient Web Service QoS prediction
+# CMF-CTF: Outlier-Resilient Web Service QoS Prediction
 
 This is the Python implementation of the paper "**Outlier-Resilient Web Service QoS Prediction**", WWW 2021. [[paper](https://arxiv.org/abs/2006.01287)]
 
