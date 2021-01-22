@@ -4,7 +4,7 @@ This repo maintains the implementation of the Cauchy Matrix Factorization method
 
 ### Usage
 
-1. Dataset
+1. Download dataset
 
    The adopted dataset can be downloaded from [WSDREAM](https://github.com/wsdream/wsdream-dataset).
 
@@ -13,3 +13,10 @@ This repo maintains the implementation of the Cauchy Matrix Factorization method
    ```
      $ python3 Full_outlier.py 0.1 "rt"
    ```
+   
+3. Train the model, e.g.,
+
+   ```
+     $ python3 CMF_qos.py 0.5 0.1 "rt"
+   ```
+   
