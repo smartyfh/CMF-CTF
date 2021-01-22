@@ -19,7 +19,7 @@ This repo maintains the implementation of the Cauchy tensor factorization method
    * CTF is implemented in Cython, so we need to compile the code at first
    
       ```
-      python setup.py build_ext --inplace
+      python3 setup.py build_ext --inplace
       ```
       
       Line 25 in setup.py need to be modified in accordance with the running environment.
