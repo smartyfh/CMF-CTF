@@ -19,23 +19,23 @@ import dataloader
 # config area
 #
 para = {'dataType': 'rt', # set the dataType as 'rt' or 'tp'
-		'dataPath': '',
-		'outPath': 'res35/',
-		'metrics': ['MAE', 'RMSE'], # delete where appropriate
-		'density': [0.5], # matrix density
-		'rounds': 5, # how many runs are performed at each matrix density
-		'dimension': 15, # dimenisionality of the latent factors
-		'gamma': 35, # maybe 10 for tp
-		'lambdau': 0.1, # regularization parameter have tried 0.1
-		'lambdas': 0.1,
-		'lambdat': 0.1,
-		'maxIter': 350, # the max iterations
-		'saveTimeInfo': False, # whether to keep track of the running time
-		'saveLog': False, # whether to save log into file
-		'debugMode': False, # whether to record the debug info
-		'parallelMode': False, # whether to leverage multiprocessing for speedup
-		'outlier_fra': [0.02, 0.04, 0.06, 0.08, 0.1, 0.2] #list(np.arange(0.02, 0.11, 0.02))     
-		}
+	'dataPath': '',
+	'outPath': 'res35/',
+	'metrics': ['MAE', 'RMSE'], # delete where appropriate
+	'density': [0.5], # matrix density
+	'rounds': 5, # how many runs are performed at each matrix density
+	'dimension': 15, # dimenisionality of the latent factors
+	'gamma': 35, # maybe 10 for tp
+	'lambdau': 0.1, # regularization parameter have tried 0.1
+	'lambdas': 0.1,
+	'lambdat': 0.1,
+	'maxIter': 350, # the max iterations
+	'saveTimeInfo': False, # whether to keep track of the running time
+	'saveLog': False, # whether to save log into file
+	'debugMode': False, # whether to record the debug info
+	'parallelMode': False, # whether to leverage multiprocessing for speedup
+	'outlier_fra': [0.02, 0.04, 0.06, 0.08, 0.1, 0.2] #list(np.arange(0.02, 0.11, 0.02))     
+	}
 initConfig(para)
 #########################################################
 
