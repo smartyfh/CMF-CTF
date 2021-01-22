@@ -20,3 +20,4 @@ This repo maintains the implementation of the Cauchy Matrix Factorization method
      $ python3 CMF_qos.py 0.5 0.1 "rt"
    ```
    
+   The parameters in the main function should be changed per request.
