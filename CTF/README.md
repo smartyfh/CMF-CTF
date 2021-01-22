@@ -31,3 +31,9 @@ This repo maintains the implementation of the Cauchy tensor factorization method
       ```
    
       The configurations can be changed in run.py.
+
+### Requirements
+
+ + Python 3.7
+ 
+ + Cython 0.29.13
