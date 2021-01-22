@@ -8,4 +8,8 @@ This repo maintains the implementation of the Cauchy Matrix Factorization method
 
    The adopted dataset can be downloaded from [WSDREAM](https://github.com/wsdream/wsdream-dataset).
 
-2. a
+2. Remove outliers from the dataset, e.g.,
+
+   ```
+     $ python3 Full_outlier.py 0.1 "rt"
+   ```
