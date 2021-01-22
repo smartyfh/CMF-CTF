@@ -9,12 +9,12 @@ print('Build extension modules...')
 print('==============================================')
 
 ext_modules = [Extension('core',
-				['src/core/core.pyx', 
-				'src/core/CTF.cpp'],
-				language='c++',
-				include_dirs=[numpy.get_include()],
-				extra_compile_args=["-O2"]
-			  )]
+		['src/core/core.pyx', 
+		'src/core/CTF.cpp'],
+		language='c++',
+		include_dirs=[numpy.get_include()],
+		extra_compile_args=["-O2"]
+	       )]
 
 setup(
 	name = 'Extended Cython module',
